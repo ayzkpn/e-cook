@@ -1,0 +1,137 @@
+.subtitle2 {
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.05em;
+    overflow: hidden;
+    color: #fff;
+    border-bottom: 4px solid #fff;
+}
+
+.subbtn {
+    font-size: 25px;
+    margin-top: 100px;
+    text-decoration: none;
+    color: #fff;
+    border: 3px solid #fff;
+    background: transparent;
+    border-radius: 50px;
+    opacity: 1;
+    padding: 20px;
+    transition: all .4s ease-in-out;
+    animation: scale .4s 1.2s ease-in forwards;
+    overflow: hidden;
+}
+
+.subbtn:hover {
+    background: #fff;
+    color: #FF6E31;
+}
+
+@keyframes scale {
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+}
+
+.content {
+    width: 100%;
+    height: 500px;
+}
+
+/* 3C2A21 */
+
+.c-title {
+    width: 100%;
+    border-bottom: 3px solid #3C2A21;
+    margin-top: 100px;
+    opacity: 0;
+    transform: translateY(-30px);
+    animation: apparition .4s 1.4s ease-out forwards;
+}
+
+.h-title {
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 30px;
+    color: #FF6E31;
+}
+
+.contitems {
+    display: grid;
+    grid-auto-flow: column;
+    scroll-behavior: auto;
+    gap: 1.2rem;
+    overflow-y: auto;
+    overscroll-behavior-x: x mandatory;
+    scrollbar-width: none;
+    margin-top: 50px;
+    margin-left: 60px;
+    margin-right: 60px;
+    opacity: 0;
+    transform: translateY(-30px);
+    animation: apparition .4s 2s ease-out forwards;
+}
+
+.card {
+    width: 250px;
+    height: 350px;
+    background: red;
+    text-decoration: none;
+}
+
+.card-title {
+    font-family: 'Poppins';
+    font-size: 25px;
+    margin-left: 20px;
+    color: #fff;
+}
+
+.card:nth-child(1) {
+    background: url(../img/mario--s27nY8mZUE-unsplash.jpg);
+    background-size: cover;
+}
+
+.card:nth-child(2) {
+    background: url(../img/sama-hosseini-iOqJG1R__gA-unsplash.jpg);
+    background-size: cover;
+}
+
+.card:nth-child(3) {
+    background: url(../img/max-griss-Spp1G283dow-unsplash.jpg);
+    background-size: cover;
+}
+
+.card:nth-child(4) {
+    background: url(../img/chad-montano-MqT0asuoIcU-unsplash.jpg);
+    background-size: cover;
+}
+
+.card:nth-child(5) {
+    background: url(../img/anshu-a-iGkEDLE5-iQ-unsplash.jpg);
+    background-size: cover;
+}
+
+.card:nth-child(6) {
+    background: url(../img/louis-hansel-k2ZCm7LCj8E-unsplash.jpg);
+    background-size: cover;
+}
+
+.card:nth-child(7) {
+    background: url(../img/kaitlin-dowis-VjM2t7VH9Uo-unsplash.jpg);
+    background-size: cover;
+}
+
+.card:nth-child(8) {
+    background: url(../img/taylor-kiser-POFG828-GQc-unsplash.jpg);
+    background-size: cover;
+}
+
+.card:nth-child(9) {
+    background: url(../img/Greece\ cuisine.jpeg);
+    background-size: cover;
+}
