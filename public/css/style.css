@@ -15,8 +15,6 @@ html {
     height: 600px;
     background: linear-gradient(to right, #FFEBB7 20%, #FF6E31 60%);
     box-shadow: 0 0 15px #000;
-    border-bottom-left-radius: 50%;
-    border-bottom-right-radius: 50%;
 }
 
 .navbar {
@@ -362,6 +360,10 @@ html {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+    }
+
+    body {
+        width: 100%;
     }
 
     .main {

@@ -9,10 +9,10 @@
 
 .landing {
     padding: 3em 2.8em;
-    width: 1000px;
+    width: 800px;
     position: absolute;
     transform: translate(-50%, -50%);
-    max-width: 600px;
+    max-width: 500px;
     max-height: 550px;
     left: 50%;
     top: 50%;
@@ -30,14 +30,14 @@
 }
 
 .t-landing {
-    font-size: 30px;
+    font-size: 25px;
     color: #FF6E31;
     border-bottom: 4px solid #3A4F7A;
 }
 
 .search-landing {
     width: 100%;
-    max-width: 600px;
+    max-width: 500px;
     display: grid;
     grid-template-columns: 9fr 3fr;
     gap: 1.2em;
@@ -46,7 +46,7 @@
 }
 
 .search-landing input {
-    font-size: 1em;
+    font-size: 35px;
     padding: 0.6em;
     border: none;
     outline: none;
@@ -60,7 +60,7 @@
 }
 
 .search-landing button {
-    font-size: 1em;
+    font-size: 35px;
     background-color: #FF6E31;
     border: none;
     font-weight: 600;
@@ -184,5 +184,6 @@ h3 {
 @media screen and (max-width: 500px) {
     .landing {
       font-size: 14px;
+      width: 400px;
     }
 }
